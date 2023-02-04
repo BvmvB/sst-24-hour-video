@@ -5,7 +5,7 @@ import { MyStack } from "./MainStack";
 export default function (app: App) {
 	app.setDefaultFunctionProps({
 		runtime: "nodejs16.x",
-		srcPath: "services",
+		srcPath: "src-app",
 		bundle: {
 			format: "esm",
 		},

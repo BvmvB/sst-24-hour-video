@@ -25,6 +25,6 @@
 		"@serverless-stack/node": "^1.18.4"
 	},
 	"workspaces": [
-		"services"
+		"src-app"
 	]
 }

@@ -1,5 +1,5 @@
 {
-	"name": "@sst-24-hour-video/services",
+	"name": "@sst-24-hour-video/src-iac",
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {},
