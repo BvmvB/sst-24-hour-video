@@ -1,4 +1,4 @@
-import { StackContext } from "@serverless-stack/resources";
+import { Config, StackContext } from "@serverless-stack/resources";
 
 import { ApplicationApi } from "./resources/Api";
 

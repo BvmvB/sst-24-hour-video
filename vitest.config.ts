@@ -3,16 +3,16 @@
 import { defineConfig } from "vitest/config";
 
 export default defineConfig({
-  test: {
-    testTimeout: 30000,
-  },
-  logLevel: "info",
-  esbuild: {
-    sourcemap: "both",
-  },
-  resolve: {
-    alias: {
-      "@sst-24-hour-video/core": "./services/core",
-    },
-  },
+	test: {
+		testTimeout: 30000,
+	},
+	logLevel: "info",
+	esbuild: {
+		sourcemap: "both",
+	},
+	resolve: {
+		alias: {
+			"@sst-24-hour-video/core": "./services/core",
+		},
+	},
 });
