@@ -1,5 +1,6 @@
 ### Tasks
 
-☐ Create a new Job
+☐ Create a S3 signed URL when a new Job is created
+✔ Create and retrive a new Job @done (2/7/2023, 9:36:44 PM)
 ✔ Implement E2E tests that checks the service is up and running @done (2/4/2023, 10:43:55 PM)
 ✔ Refactor project file structure @done (2/4/2023, 10:01:47 PM)

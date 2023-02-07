@@ -1,18 +1,18 @@
 /// <reference types="vitest" />
 
-import { defineConfig } from "vitest/config";
+import { defineConfig } from 'vitest/config'
 
 export default defineConfig({
 	test: {
 		testTimeout: 30000,
 	},
-	logLevel: "info",
+	logLevel: 'info',
 	esbuild: {
-		sourcemap: "both",
+		sourcemap: 'both',
 	},
 	resolve: {
 		alias: {
-			"@sst-24-hour-video/core": "./services/core",
+			'@sst-24-hour-video/core': './services/core',
 		},
 	},
-});
+})
