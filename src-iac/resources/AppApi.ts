@@ -1,4 +1,5 @@
 import { Api, Stack } from '@serverless-stack/resources'
+
 import { JobsTable } from './JobsTable'
 
 const CONTROLLERS_PATH = 'application/api/controllers'
@@ -19,9 +20,9 @@ export class AppApi {
 					},
 				},
 				routes: {
-					'GET /': `${CONTROLLERS_PATH}/healthCheck.handler`,
+					'GET  /': `${CONTROLLERS_PATH}/healthCheck.handler`,
 					'POST /jobs': `${CONTROLLERS_PATH}/createJob.handler`,
-					'GET /jobs/{id}': `${CONTROLLERS_PATH}/getJob.handler`,
+					'GET  /jobs/{id}': `${CONTROLLERS_PATH}/getJob.handler`,
 				},
 			})
 
