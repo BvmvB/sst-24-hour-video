@@ -31,6 +31,7 @@ function assertJobCreated(response: AxiosResponse) {
 	expect(response.data).toMatchObject({
 		id: expect.any(String),
 		status: 'CREATED',
+		uploadUrl: expect.any(String),
 	})
 }
 
